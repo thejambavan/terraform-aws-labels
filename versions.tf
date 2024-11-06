@@ -1,11 +1,12 @@
 # Terraform version
 terraform {
-  required_version = ">= 1.6.6"
+  required_version = ">= 1.6.1"
+:q
 
   required_providers {
     aws = {
-      source  = "hashicorp/aws"
-      version = ">= 5.31.0"
+      source  = "opentofu/aws"
+      version = ">= 5.68.0"
     }
   }
 }
